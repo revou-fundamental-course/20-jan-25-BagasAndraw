@@ -12,6 +12,8 @@ main {
 
 .main-header {
     text-align: center;
+    background-color: aliceblue;
+    padding: 5px;
 }
 
 .container {
