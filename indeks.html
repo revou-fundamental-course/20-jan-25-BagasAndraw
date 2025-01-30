@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js"></script>
+    <title>Kalkulator BMI</title>
 </head>
+
 <body>
-    
+    <header class="main-header">
+        <h2>Kalkulator BMI</h2>
+    </header>
+    <article class="article-group">
+        <p>Kalkulator BMI (Body Mass Index) adalah alat yang digunakan untuk menghitung indeks massa tubuh seseorang berdasarkan berat badan dan tinggi badannya. BMI digunakan sebagai indikator umum untuk menilai apakah seseorang memiliki berat badan yang kurang, normal, berlebih, atau mengalami obesitas.</p>
+        <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?</p>
+        <p>Yuk hitung sekarang di kalkulator BMI.</p>
+    </article>
+    <main>
+        <section>
+            <div class="container">
+                <div class="form-group">
+                    <label for="age">Usia</label>
+                    <input type="number" id="age">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Jenis Kelamin</label>
+                    <select id="gender">
+                        <option value="male">laki-laki</option>
+                        <option value="female">perempuan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="height">Tinggi Badan (cm)</label>
+                    <input type="number" id="height">
+                </div>
+                <div class="form-group">
+                    <label for="weight">Berat Badan (kg)</label>
+                    <input type="number" id="weight">
+                </div>
+                <p class="error-message" id="error-message"></p>
+                <button onclick="calculateBMI()">Hitung</button>
+                <button onclick="resetForm()" style="background: #dc3545;">Reset</button>
+                <div class="result" id="result"></div>
+            </div>
+        </section>
+    </main>
+    <header>
+        <h2>
+            Keunggulan Fitur :
+        </h2>
+    </header>
+    <article>
+        <div>1. Menghitung berat badan</div>
+        <div>2. Menentukan kategori berat badan ideal atau tidak</div>
+        <div>3. Mempersiapkan program penurunan berat badan </div>
+    <header>
+        <h2>
+            Beberapa Penyakit Obesitas :
+        </h2>
+    </header>
+    <div>1. Diabetes</div>
+    <div>2. Jantung dan Stroke</div>
+    <div>3. Osteoartritis</div>
+    <div>4. Diabetes</div>
+
+    <p>Dan masih banyak lagi penyakit yang disebabkan obesitas, jadi Jaga kesehatanmu dengan pola hidup sehat! Konsumsi makanan bergizi seimbang, rutin berolahraga, dan hindari kebiasaan yang dapat memicu obesitas. Tubuh yang sehat adalah investasi terbaik untuk masa depan yang lebih baik! </p>
+       
+    </article>
+    <footer>
+        <span>
+            © Made by Rusdi
+        </span> 
+    </footer>
 </body>
 </html>
