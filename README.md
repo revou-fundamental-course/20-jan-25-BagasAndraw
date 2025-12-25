@@ -1,6 +1,6 @@
 # Kalkulator BMI
 
-Berat badan ideal adalah impian semua orang. Tidak hanya memiliki tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat.  
+## Berat badan ideal adalah impian semua orang. Tidak hanya memiliki tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat.  
 Bagaimana denganmu? Yuk hitung sekarang di kalkulator BMI 
 
 ---
