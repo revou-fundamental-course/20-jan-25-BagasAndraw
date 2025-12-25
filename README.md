@@ -1,8 +1,8 @@
 # Kalkulator BMI
 
-**Berat badan ideal adalah impian semua orang. Tidak hanya memiliki tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk hitung sekarang di kalkulator BMI 
+**Berat badan ideal adalah impian semua orang. Tidak hanya memiliki tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk hitung sekarang di kalkulator BMI** 
 
-Dibuat oleh Bagas Dwi Andra dalam mengikuti event RevoU Fundamental Course: Software Engineering**
+**Dibuat oleh Bagas Dwi Andra dalam mengikuti event RevoU Fundamental Course: Software Engineering**
 
 **Fitur**
 - Menghitung berat badan
